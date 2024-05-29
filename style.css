@@ -1,0 +1,54 @@
+body{
+	background-color: green;
+}
+#menu{
+	background-color:lightblue;
+	width:90%;
+	font-size: 24px;
+	font-weight: bold;
+	border-style: outset;
+	border-color: red;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+#main{
+	width: 90%;
+	background-color: white;
+	height: 420px;
+	border-style: ridge;
+	border-radius: 5px;
+	
+}
+#content{
+	width: 60%;
+	background-color: lightblue;
+	height: 400px;
+	float: left;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#sidebar{
+	width: 30%;
+	background-color: lightblue;
+	border-radius: 5px;
+	float: right;
+	height: 400px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+input[type=text],input[type=date],input[type=password],input[type=number],input[type=email], textarea, select {
+	width: 80%;
+	border: 1px solid grey;
+	border-radius: 4px;
+	padding: 2px;
+	
+}
+input[type=submit]{
+	float:right;
+	background-color: lightgreen;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 5px;
+}
